@@ -19,7 +19,7 @@
 
 @keyframes banner{
     0%, 20%{
-            background-image: url(tacos.jpg);
+            background-image: url(locro.jpg);
     }
     25%, 45%{
             background-image: url(pasta.jpg);
