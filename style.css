@@ -19,16 +19,16 @@
 }
 @keyframes banner{
     0%, 20%{
-            background-image: url(../img/tacos.jpg);
+            background-image: url(empanadas.jpg);
     }
     25%, 45%{
-            background-image: url(../img/pasta.jpg);
+            background-image: url(empanadasHorneadas.jpg);
     }
     50%, 75%{
-            background-image: url(../img/empanadas.jpg);
+            background-image: url(pasta.jpg);
     }
     80%, 100%{
-            background-image: url(../img/rsz/empanadasHorneadas.jpg);
+            background-image: url(locro.jpg);
     }
 }
 .capa{
