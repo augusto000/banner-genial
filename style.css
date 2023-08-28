@@ -11,7 +11,7 @@
             font-family: 'Oswald', sans-serif;;
             width: 100%;
             height: 35rem;
-            animation: banner 15s infinite linear alternate;
+            animation: banner 10s infinite linear alternate;
             background-size: 100% 100%;
             background-position: center center;
             position: relative;
