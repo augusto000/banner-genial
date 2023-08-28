@@ -23,16 +23,16 @@
 }
 @keyframes banner{
     0%, 20%{
-            background-image: url(../fotos-img/empanadas.jpg);
+            background-image: url(empanadas.jpg);
     }
     25%, 45%{
-            background-image: url(../fotos-img/empanadasfritas.jpg);
+            background-image: url(empanadasfritas.jpg);
     }
     50%, 75%{
-            background-image: url(../fotos-img/humita.jpg);
+            background-image: url(humita.jpg);
     }
     80%, 100%{
-            background-image: url(../fotos-img/locro-1.jpg);
+            background-image: url(locro-1.jpg);
     }
 }
 .capa{
