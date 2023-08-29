@@ -118,7 +118,7 @@
          display: inline-block;
          margin-left: -5rem;
         }         
-  
+  .foo{top:0}
 }
 @media (max-width:432px){
     .info{        
@@ -140,4 +140,5 @@
             display: inline-block;
             margin:auto;
         }    
+  .foo{top:0}
 }
