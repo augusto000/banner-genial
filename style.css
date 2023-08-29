@@ -68,7 +68,7 @@
 }
 #foo{
     position:relative;
-    top: 250px;
+    top: 270px;
     left: 0;
     display: flex;
     flex-direction: row;
