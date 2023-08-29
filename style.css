@@ -25,14 +25,14 @@
     0%, 20%{
             background-image: url(empanadas.jpg);
     }
-    25%, 45%{
+    22%, 45%{
+            background-image: url(empanadasFritas2.jpg);
+    }
+    47%, 75%{
+            background-image: url(empanadasHorneadas.jpg);
+    }
+    77%, 100%{
             background-image: url(empanadasfritas.jpg);
-    }
-    50%, 75%{
-            background-image: url(humita.jpg);
-    }
-    80%, 100%{
-            background-image: url(locro-1.jpg);
     }
 }
 .capa{
