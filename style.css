@@ -144,5 +144,10 @@
        #foo{
              top:300px;
              margin-bottom:4px;
-}
+           }
+    #foo p{
+            padding: 2px;
+            font-size: 9px;
+            font-weight: bolder;
+          }
 }
