@@ -141,5 +141,8 @@
             display: inline-block;
             margin:auto;
         }    
-       #foo{top:300px;}
+       #foo{
+             top:300px;
+             margin-bottom:5px;
+}
 }
