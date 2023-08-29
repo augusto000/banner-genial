@@ -29,10 +29,10 @@
             background-image: url(empanadasFritas2.jpg);
     }
     48%, 75%{
-            background-image: url(empanadasHorneadas.jpg);
+            background-image: url(empanadas.jpg);
     }
     78%, 100%{
-            background-image: url(empanadasfritas.jpg);
+            background-image: url(empanadasFritas2.jpg);
     }
 }
 .capa{
