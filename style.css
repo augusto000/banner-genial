@@ -276,11 +276,11 @@ input:focus ~ label{
     margin: 1.1rem auto;   
 }
 #enConstrucion1 section{
-    margin: 3rem 29rem;    
+    margin: 6rem 29rem;    
 }
 #enConstrucion1 section img{
-      width: 40rem;
-      height: 80vh;
+      width: 10rem;
+      height: 10rem;
 }
 /*/////////////FIN input submit/enviar ////////*/
 .seis{
