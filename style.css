@@ -1,0 +1,287 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Oswald:wght@400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}  
+    .banner{
+            font-family: 'Osvald','Courier New', Courier, monospace;
+            margin-top: 7rem;
+            width: 100%;
+            height:30rem;
+            animation: banner 15s infinite linear alternate;
+            background-size: 100% 100%;
+            background-position: center center;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            margin-top: 0;
+}
+@keyframes banner{
+    0%, 20%{
+            background-image: url(../bannerEmpanadas/empanadas1.jpg);
+    }
+    25%, 45%{
+            background-image: url(../bannerEmpanadas/empanadas2.jpg);
+    }
+    50%, 75%{
+            background-image: url(../bannerEmpanadas/empanadas3.jpg);
+    }
+    80%, 100%{
+            background-image: url(../bannerEmpanadas/empanadas4.jpg);
+    }
+}
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,.2);        
+}
+.info{
+    z-index: 1;
+    width:100%;
+    max-width: 53%;
+    text-align: center;
+}
+.info h1{
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.info p{
+    color: #c7c7c7;
+    line-height: 1.7;
+    margin-bottom: 30px;    
+}
+.info a{
+    background-color: #3088e0;
+    padding: 16px 36px;   
+    border-radius: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+#foo{
+    position:relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    height: 2rem;
+    padding-top: .5rem;
+    align-items:flex-start;
+    max-width: 100%;
+    flex-basis: 100%;
+    background-color: #c7c7c7;
+}
+.iconos{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 7rem;
+    font-size: 1rem;
+    
+}
+.fa-youtube{
+    color: red;
+}
+.fa-instagram{
+    color:darkorchid;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-github-alt{
+    color:black;
+}
+/* /////////////////////////// */
+@media (max-width:600px){
+.info h1{
+         max-width: 600px;
+         margin-top: 2rem;
+         margin-left: -5rem;
+         font-size: 1.9rem;          
+ }    
+ .info p{
+         margin-top: 18rem; 
+         margin-left: -5rem;
+         color:white; 
+        }
+ .info a{            
+         display: inline-block;
+         margin-left: -5rem;
+        }         
+  
+}
+@media (max-width:432px){
+    .info{        
+         margin-top: -10rem;       
+    }
+    .info h1{
+           margin-top: 7rem;
+           margin-left: -.5rem;
+           font-size: 1.9rem;          
+    }
+
+    .info p{
+        width: 250px;
+        margin-top: 10rem; 
+        margin-left: -0.5rem;
+         color:white; 
+        } 
+        .info a{            
+            display: inline-block;
+            margin:auto;
+        }
+        #foo{            
+            top:300px;
+            margin-bottom:0;            
+        }    
+        #foo p{
+            padding: 2px;
+            font-size: 9px;
+            font-weight: bolder;
+        }
+}
+/*////////////landing Page /////////////////*/
+.grid-layout{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:15% 35% 20% auto;
+    width: 99vw;
+    height: 97vh;
+    margin: 1rem auto;
+    padding: 1rem;    
+    justify-content: stretch;        
+}
+.uno{
+      text-align: center;
+      font-size: 3.8rem;
+      font-family: 'Osvald','Courier New', Courier, monospace;
+      font-weight: bolder;
+      padding: .5rem;
+      background-color: #3088e0;
+      border-radius: 1.5rem;
+      box-shadow: .5rem .5rem 1.9rem #3088e0;
+      text-align: center;
+      margin: .8rem;
+      width: 45rem;
+}
+.dos{
+    grid-row: span 4;    
+}
+.dos img{
+    width: 95%;
+    height: 97%;
+    border-radius: 2rem;
+
+    margin: .6rem .9rem;
+}
+.tres{    
+    grid-row: span 1;
+    
+}
+.tres ul {
+    list-style: none;        
+}
+.tres ul li p{
+    font-size: 1.7rem;
+    font-family: 'Osvald','Courier New', Courier, monospace;
+    text-align: justify;
+    font-weight: bolder;
+    margin: .5rem 9rem;
+    padding: .5rem;    
+    line-height: 2rem;
+}
+.tres ul li p i{
+    color: green;
+    padding: .5rem;
+}
+.cuatro p {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1rem;
+    text-align: justify;
+    font-family: 'Osvald','Courier New', Courier, monospace;
+    margin: 0 .5rem;
+}
+.cuatro {
+    display:flex;
+    margin: 1.5rem 5rem;    
+}
+.cuatro .fa-fade{
+    color :yellow;           
+}
+/*/////////////Comienzo input submit/enviar ////////*/
+.cinco{
+    border-radius: 2rem;
+    text-align: center;
+    padding: 1rem ;
+    height: 4.9rem;
+}
+.input-field{
+    position :relative;
+}
+.input-field input{
+    width: 14rem;
+    height: 3rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    padding: 0 .5rem;
+    border:.1rem solid black;
+    background: transparent;
+    color:black;
+    outline: none;
+}
+.input-field label{
+    position: absolute;
+    top: 45%;
+    left: 17rem;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 1.2rem;
+    pointer-events: none;
+    transition: .3s;
+}
+input:focus ~ label{
+    top:0;
+    left: 17rem;
+    font-size: 1rem;
+    padding: 0 2px;
+    background-color: #fff;
+}
+.cinco .btnEnviar{
+    color:red;
+    margin: .5rem auto;
+    padding: 0 auto;
+    width: 8rem;
+}
+.cinco .linkContruccion a{
+    text-decoration: none;
+    padding: .5rem 2rem ;
+    outline: .1rem solid black;
+    font-size: 2rem;
+    color: black;
+    border-radius: .5rem;
+    
+}
+.cinco .linkContruccion{
+    margin: 1.1rem auto;
+    
+    
+}
+/*/////////////FIN input submit/enviar ////////*/
+.seis{
+    outline:2px solid red ;
+    grid-column: span 2;
+}
+
+
+
