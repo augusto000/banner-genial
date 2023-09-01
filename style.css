@@ -21,16 +21,16 @@
 }
 @keyframes banner{
     0%, 20%{
-            background-image: url(empanadas1.jpg);
+            background-image: url(../bannerEmpanadas/empanadas1.jpg);
     }
     25%, 45%{
-            background-image: url(empanadas2.jpg);
+            background-image: url(../bannerEmpanadas/empanadas2.jpg);
     }
     50%, 75%{
-            background-image: url(empanadas3.jpg);
+            background-image: url(../bannerEmpanadas/empanadas3.jpg);
     }
     80%, 100%{
-            background-image: url(empanadas4.jpg);
+            background-image: url(../bannerEmpanadas/empanadas4.jpg);
     }
 }
 .capa{
@@ -78,7 +78,7 @@
     align-items:flex-start;
     max-width: 100%;
     flex-basis: 100%;
-    background-color: #c7c7c7;
+    background-color: #3088e0;
 }
 .iconos{
     text-decoration: none;
@@ -86,8 +86,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     width: 7rem;
-    font-size: 1rem;
-    
+    font-size: 1rem;    
 }
 .fa-youtube{
     color: red;
@@ -101,88 +100,112 @@
 .fa-github-alt{
     color:black;
 }
-/* /////////////////////////// */
+/* /////////index.html////////////////// */
 @media (max-width:600px){
-.info h1{
-         max-width: 600px;
-         margin-top: 2rem;
-         margin-left: -5rem;
-         font-size: 1.9rem;          
- }    
- .info p{
-         margin-top: 18rem; 
-         margin-left: -5rem;
-         color:white; 
-        }
- .info a{            
-         display: inline-block;
-         margin-left: -5rem;
-        }         
-  
-}
-@media (max-width:432px){
-    .info{        
-         margin-top: -10rem;       
+    .capa{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top:0;
+        left:0;
+        background-color: rgba(0,0,0,.2);        
+    }
+    .info{
+        z-index: 1;
+        width:100%;
+        max-width: 53%;
+        text-align: center;        
+        margin-top: -5rem;
+        height: 20rem;
     }
     .info h1{
-           margin-top: 7rem;
-           margin-left: -.5rem;
-           font-size: 1.9rem;          
+        color: #fff;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        
+    }
+    .info p{
+        color: #c7c7c7;
+        line-height: 1.7; 
+        
+    }
+    .info a{
+        background-color: #3088e0;
+        padding: 16px 36px;   
+        margin-top: 3rem;
+        border-radius: 1.5rem;
+        text-decoration: none;
+        color: #fff;
+        display: inline-block;        
+    }
+    #foo{
+        position:relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around ;
+        height: 2rem;
+        padding-top: .5rem;
+        align-items:flex-start;
+        max-width: 100%;
+        flex-basis: 100%;
+        background-color: #3088e0;
+    }
+    .iconos{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 7rem;
+        font-size: 1rem;    
+    }
+    .fa-youtube{
+        color: red;
+    }
+    .fa-instagram{
+        color:darkorchid;
+    }
+    .fa-facebook{
+        color: blue;
+    }
+    .fa-github-alt{
+        color:black;
     }
 
-    .info p{
-        width: 250px;
-        margin-top: 10rem; 
-        margin-left: -0.5rem;
-         color:white; 
-        } 
-        .info a{            
-            display: inline-block;
-            margin:auto;
-        }
-        #foo{            
-            top:300px;
-            margin-bottom:0;            
-        }    
-        #foo p{
-            padding: 2px;
-            font-size: 9px;
-            font-weight: bolder;
-        }
-}
 /*////////////landing Page /////////////////*/
 .grid-layout{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows:15% 35% 20% auto;
+    grid-template-rows:15% 35% 20% 13% 2rem 2rem;
     width: 99vw;
     height: 97vh;
-    margin: 1rem auto;
-    padding: 1rem;    
-    justify-content: stretch;        
+    margin: 0 auto;
+    padding: 1rem;        
 }
 .uno{
-      text-align: center;
-      font-size: 3.8rem;
-      font-family: 'Osvald','Courier New', Courier, monospace;
-      font-weight: bolder;
-      padding: .5rem;
-      background-color: #3088e0;
-      border-radius: 1.5rem;
-      box-shadow: .5rem .5rem 1.9rem #3088e0;
-      text-align: center;
-      margin: .8rem;
-      width: 45rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Osvald','Courier New', Courier, monospace;
+    font-weight: bolder;
+    padding: .5rem;
+    background-color: #3088e0;
+    border-radius: 1.5rem;
+    box-shadow: .5rem .5rem 1.9rem #3088e0;
+    text-align: center;
+    margin: .8rem;
+    width: 45rem;
+    
 }
+
 .dos{
-    grid-row: span 4;    
+    grid-row: span 7;    
 }
 .dos img{
-    width: 95%;
-    height: 97%;
+    width: 100%;
+    height: 96.2%;
     border-radius: 2rem;
-
-    margin: .6rem .9rem;
+    margin: .6rem .2rem;
 }
 .tres{    
     grid-row: span 1;
@@ -224,7 +247,7 @@
     border-radius: 2rem;
     text-align: center;
     padding: 1rem ;
-    height: 4.9rem;
+    height: 8.3rem;      
 }
 .input-field{
     position :relative;
@@ -242,7 +265,7 @@
 }
 .input-field label{
     position: absolute;
-    top: 45%;
+    top: 28%;
     left: 17rem;
     transform: translateY(-50%);
     color: black;
@@ -251,15 +274,14 @@
     transition: .3s;
 }
 input:focus ~ label{
-    top:0;
+    top:.6rem;
     left: 17rem;
     font-size: 1rem;
     padding: 0 2px;
     background-color: #fff;
-}
+} 
 .cinco .btnEnviar{
-    color:red;
-    margin: .5rem auto;
+    margin: 2.5rem auto;
     padding: 0 auto;
     width: 8rem;
 }
@@ -269,24 +291,102 @@ input:focus ~ label{
     outline: .1rem solid black;
     font-size: 2rem;
     color: black;
-    border-radius: .5rem;
-    
+    border-radius: .5rem;    
 }
 .cinco .linkContruccion{
     margin: 1.1rem auto;   
 }
 #enConstrucion1 section{
-    margin: 6rem 29rem;    
+    margin: 3rem 29rem;    
 }
 #enConstrucion1 section img{
-      width: 10rem;
-      height: 10rem;
+      width: 40rem;
+      height: 80vh;
 }
 /*/////////////FIN input submit/enviar ////////*/
-.seis{
-    outline:2px solid red ;
-    grid-column: span 2;
+/*footer*/
+#fooLP{
+    background-color: #3088e0;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: -2.7rem .5rem;
+    font-family: 'Osvald','Courier New', Courier, monospace;
+    padding: .5rem;
+}
+}
+/*fin footer*/
+/*landingPage.html*/
+@media (max-width:600px){
+        .grid-layout{
+                grid-template-columns: 100%;
+                grid-template-rows:15% 20% 15% 13% 2rem 2rem;                       
+        }
+        .uno{
+                font-size:1.8rem ;
+                padding: .9rem ;
+                width: 34.5rem;                
+        } 
+        .tres{    
+                margin: 0 -2.5rem;          
+        }
+                
+        .cuatro p{
+                    text-align: justify;               
+                    margin: 0 -1.5rem;        
+                    width: 30rem;                                            
+        }
+        .cuatro {                
+                    width: 34rem;
+                    margin: 2rem .2rem;                         
+        }
+        .cuatro .fa-fade{
+                margin:0 2rem;
+                color :yellow;           
+        }
+            /*/////////////Comienzo input submit/enviar ////////*/
+        .input-field label{
+                left: 12rem;       
+        }
+            input:focus ~ label{
+                top:.6rem;
+                left: 11rem;       
+        } 
+        /*footer*/
+        #fooLP{
+            font-family: 'Osvald','Courier New', Courier, monospace;
+            margin: 28.5rem auto;
+        }
+        /*fin footer*/
 }
 
-
-
+ /*Pagina en construccion*/
+ .cinco .linkContruccion a{
+    text-decoration: none;
+    padding: .5rem 2rem ;
+    outline: .1rem solid black;
+    font-size: 2rem;
+    color: black;
+    border-radius: .5rem;    
+}
+.cinco .linkContruccion{
+    margin: 1.1rem auto;   
+}
+#enConstrucion1 section{
+margin: 3rem 29rem;    
+}
+#enConstrucion1 section img{
+    width: 40rem;
+    height: 80vh;
+   }
+@media (max-width:600px){
+    /*Pagina en construccion*/
+#enConstrucion1 section{
+margin: 3rem 2rem;    
+}
+#enConstrucion1 section img{
+    width: 100%;
+    height: 80vh;
+   }
+}   
