@@ -21,16 +21,16 @@
 }
 @keyframes banner{
     0%, 20%{
-            background-image: url(../bannerEmpanadas/empanadas1.jpg);
+            background-image: url(empanadas1.jpg);
     }
     25%, 45%{
-            background-image: url(../bannerEmpanadas/empanadas2.jpg);
+            background-image: url(empanadas2.jpg);
     }
     50%, 75%{
-            background-image: url(../bannerEmpanadas/empanadas3.jpg);
+            background-image: url(empanadas3.jpg);
     }
     80%, 100%{
-            background-image: url(../bannerEmpanadas/empanadas4.jpg);
+            background-image: url(empanadas4.jpg);
     }
 }
 .capa{
@@ -121,13 +121,11 @@
     .info h1{
         color: #fff;
         font-size: 2rem;
-        letter-spacing: 2px;
-        
+        letter-spacing: 2px;        
     }
     .info p{
         color: #c7c7c7;
-        line-height: 1.7; 
-        
+        line-height: 1.7;         
     }
     .info a{
         background-color: #3088e0;
